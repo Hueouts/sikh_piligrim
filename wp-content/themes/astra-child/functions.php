@@ -13,7 +13,7 @@
     }else{
         $version = '1.0.0';
     }
-    
+    // new site uri integration
     wp_enqueue_script('theme-controller-scripts', get_site_url() . $path, [], $version, true);
 
  ?>
