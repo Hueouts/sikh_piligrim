@@ -1,3 +1,4 @@
+// logic for listening event on slide left to prevent predefined plugin layout
 document.addEventListener('DOMContentLoaded', function() {
     var body = document.body;
     var html = document.querySelector('.js');
